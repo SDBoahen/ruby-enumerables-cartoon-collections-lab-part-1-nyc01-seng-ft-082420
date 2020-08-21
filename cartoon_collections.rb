@@ -16,9 +16,14 @@ def
   
   list_dwarves(array)
 
-  number_for_list = 0
+  number_for_list = 1
+  # X |  0  !!
+  # *** Can still later/another time -|-1)
   
   array.each do |name| # <- More Appropriate |element| 
+  #
+  #                   (1-|- number_for_list += 1
+  #
   puts "#{number_for_list}. #{name}!" 
   
   number_for_list += 1
