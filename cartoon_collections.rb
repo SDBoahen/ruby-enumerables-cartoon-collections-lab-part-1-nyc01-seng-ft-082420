@@ -4,7 +4,7 @@ def
 
 
   array.each do |name| # <- More Appropriate |element| 
-    
+    puts "Hello #{name}!"  end
     end 
 
 end
@@ -25,3 +25,4 @@ end
 # Use `each_with_index` to enumerate over the provided array
 #
 # Print a numbered list of each element
+
