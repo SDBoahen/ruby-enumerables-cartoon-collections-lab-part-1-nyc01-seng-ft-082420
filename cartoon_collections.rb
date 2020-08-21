@@ -3,7 +3,9 @@ def
   greet_characters(array)
 
 
-  array.each do end 
+  array.each do 
+    
+    end 
 
 end
 # Use `each` to enumerate over the provided array
