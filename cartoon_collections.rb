@@ -3,7 +3,7 @@ def
   greet_characters(array)
 
 
-  array.each do 
+  array.each do |name| # <- More Appropriate |element| 
     
     end 
 
